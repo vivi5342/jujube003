@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>003 the pegasus</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<header class="topnav" id="myTopnav">
+		<a href="#home" class="active"><img src="./img/logo.png" alt="The Pegasus"></a>
+		<a href="#downloads">Downloads</a>
+		<a href="#secure">Secure Communication</a>
+		<a href="#simple">Simple</a>
+		<a href="#schedule">Schedule Your Messages</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</header>
+	<main>
+		<div id="downloads">
+			<div class="big_title">FREE. SECURE.</div>
+			<div class="desc">ShenXun is a FREE mobile application providing SECURE instant messaging and other relevant services to users around the world.</div>
+			<div class="smaller_title">Available on different platforms</div>
+			<div class="platforms">
+				<div>
+					<div><img src="./img/icon_iPhone.png" alt="iOS"></div>
+					<div>Download</div>
+				</div>
+				<div>
+					<div><img src="./img/icon_andorid.png" alt="iOS"></div>
+					<div>Download</div>
+				</div>
+				<div>
+					<div><img src="./img/icon_Mac.png" alt="iOS"></div>
+					<div>Download</div>
+				</div>
+				<div>
+					<div><img src="./img/icon_Windows.png" alt="iOS"></div>
+					<div>Download</div>
+				</div>
+			</div>
+		</div>
+		<div id="secure">
+			<div class="right">
+				<div class="section_title">Secure Communication</div>
+				<div class="section_desc">Secure communication (messaging and calls) based on state-of-art, end-to-end encryption technology so that no one, including us, can read your messages or listen to your conversations.</div>
+			</div>
+			<div class="left">
+				<img src="./img/sec2_img.png" alt="Secure Communication">
+			</div>
+		</div>
+		<div id="simple">
+			<div class="left">
+				<div class="section_title">Simple</div>
+				<div class="section_desc">No subscription required. ShenXun uses your phone number and internet connection to make calls and messages.</div>
+			</div>
+			<div class="right">
+				<img src="./img/sec1_img.png" alt="Simple">
+			</div>
+		</div>
+		<div id="schedule">
+			<div class="right">
+				<div class="section_title">Schedule Your Messages</div>
+				<div class="section_desc">You can schedule messages in advance to make your work and life more convenient.</div>
+			</div>
+			<div class="left">
+				<img src="./img/sec3_img.png" alt="Secure Communication">
+			</div>
+		</div>
+	</main>
+	<footer>
+		<span>© 2020 Shenxun Inc., a 501c3 nonprofit.</span>
+		<span><a href="http://www.">Privacy & Terms</a></span>
+	</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+</body>
+</html>
