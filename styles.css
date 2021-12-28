@@ -267,8 +267,11 @@ footer a {
     }
 
     .desc {
-        width: auto;
+        font-size: 20px;
+        line-height: 28px;
+        width: auto
     }
+
     .topnav  {
         display: block;
     }
@@ -322,10 +325,6 @@ footer a {
         width: 290px;
     }
     
-    #downloads{
-        padding-top: 180px;
-    }
-
     .download-wrapper {
         padding: 17px 10px 10px;
     }
